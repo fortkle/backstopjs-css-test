@@ -18,3 +18,19 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/ua', function () {
+    return view('user-agent');
+});
+
+Route::get('/cookie', function () {
+    return view('cookie');
+});
+
+Route::get('/modal', function () {
+    return view('modal');
+});
+
+Route::get('/article', function () {
+    return view('article');
+});
