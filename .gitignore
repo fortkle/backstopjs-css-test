@@ -4,4 +4,12 @@
 Homestead.yaml
 Homestead.json
 .env
-.idea/workspace.xml
+.idea
+.DS_Store
+
+# BackstopJS #
+######################
+backstop_data/html_report
+backstop_data/bitmaps_reference
+backstop_data/bitmaps_test
+backstop_data/casper_scripts/test-users.js

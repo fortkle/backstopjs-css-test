@@ -1,0 +1,28 @@
+[
+  {
+    "label": "ADMIN_none_article",
+    "url": "http://localhost:8000/article",
+    "delay": 500,
+    "removeSelectors": [
+      ".js-dynamic-element"
+    ],
+    "loginAs": "Admin"
+  },
+  {
+    "label": "Normal_none_article",
+    "url": "http://localhost:8000/article",
+    "delay": 500,
+    "removeSelectors": [
+      ".js-dynamic-element"
+    ],
+    "loginAs": "Normal"
+  },
+  {
+    "label": "NON-LOGIN_none_article",
+    "url": "http://localhost:8000/article",
+    "delay": 500,
+    "removeSelectors": [
+      ".js-dynamic-element"
+    ]
+  }
+]

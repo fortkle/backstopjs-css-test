@@ -1,0 +1,22 @@
+[
+  {
+    "label": "ADMIN_none_modal",
+    "url": "http://localhost:8000/modal",
+    "delay": 500,
+    "onReadyScript": "onReady.js",
+    "loginAs": "Admin"
+  },
+  {
+    "label": "Normal_none_modal",
+    "url": "http://localhost:8000/modal",
+    "delay": 500,
+    "onReadyScript": "onReady.js",
+    "loginAs": "Normal"
+  },
+  {
+    "label": "NON-LOGIN_none_modal",
+    "url": "http://localhost:8000/modal",
+    "onReadyScript": "onReady.js",
+    "delay": 500
+  }
+]

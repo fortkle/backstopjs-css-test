@@ -1,0 +1,10 @@
+module.exports = {
+  Admin: {
+    id: 'admin@example.com',
+    pass: 'password',
+  },
+  Normal: {
+    id: 'normal@example.com',
+    pass: 'password',
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "label": "ADMIN_none_cookie",
+    "url": "http://localhost:8000/cookie",
+    "delay": 500,
+    "removeSelectors": [
+      ".js-cookie"
+    ],
+    "loginAs": "Admin"
+  },
+  {
+    "label": "Normal_none_cookie",
+    "url": "http://localhost:8000/cookie",
+    "delay": 500,
+    "removeSelectors": [
+      ".js-cookie"
+    ],
+    "loginAs": "Normal"
+  },
+  {
+    "label": "NON-LOGIN_none_cookie",
+    "url": "http://localhost:8000/cookie",
+    "delay": 500,
+    "removeSelectors": [
+      ".js-cookie"
+    ]
+  }
+]

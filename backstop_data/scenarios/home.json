@@ -1,0 +1,19 @@
+[
+  {
+    "label": "ADMIN_home_index",
+    "url": "http://localhost:8000/home",
+    "delay": 500,
+    "loginAs": "Admin"
+  },
+  {
+    "label": "Normal_home_index",
+    "url": "http://localhost:8000/home",
+    "delay": 500,
+    "loginAs": "Normal"
+  },
+  {
+    "label": "NON-LOGIN_home_index",
+    "url": "http://localhost:8000/home",
+    "delay": 500
+  }
+]

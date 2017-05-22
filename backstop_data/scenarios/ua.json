@@ -1,0 +1,19 @@
+[
+  {
+    "label": "ADMIN_none_user-agent",
+    "url": "http://localhost:8000/ua",
+    "delay": 500,
+    "loginAs": "Admin"
+  },
+  {
+    "label": "Normal_none_user-agent",
+    "url": "http://localhost:8000/ua",
+    "delay": 500,
+    "loginAs": "Normal"
+  },
+  {
+    "label": "NON-LOGIN_none_user-agent",
+    "url": "http://localhost:8000/ua",
+    "delay": 500
+  }
+]
